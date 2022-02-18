@@ -2,16 +2,18 @@ package com.qa.lesson;
 
 public class Test {
     public static void main(String[] args) {
-        //Erankyan paragic
-        int a = 8;
-        int b = 9;
-        int c = 11;
-        int p = a + b + c;
-        System.out.println(p);
-// qarakusu paragic
-        int qa = 3;
-        int ak = 3;
-        int s = qa * ak;
-        System.out.println(s);
+        int i = 0;
+        while (i < 100) {
+            if (i % 2 == 0 && i != 0) {
+                System.out.print(i + " ");
+            }
+            i++;
+        }
+        System.out.println();
+        for (int j = 0; j < 100; j++) {
+            if (j % 2 > 0) {
+                System.out.print(j + " ");
+            }
+        }
     }
 }
